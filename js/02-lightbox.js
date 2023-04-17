@@ -7,8 +7,6 @@ const galleryMarkup = createGalleryMarkup(galleryItems);
 
 imagesContainer.insertAdjacentHTML("beforeend", galleryMarkup);
 
-
-
 function createGalleryMarkup(images) {
   return images
     .map(
